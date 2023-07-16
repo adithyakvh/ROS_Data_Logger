@@ -1,8 +1,8 @@
-# Install script for directory: /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/custom_interface__py
+# Install script for directory: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/custom_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adithyakvh/Courses/Fathom_Radiant/install/custom_interface")
+  set(CMAKE_INSTALL_PREFIX "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adithyakvh/Courses/Fathom_Radiant/src/custom_interface
+CMAKE_SOURCE_DIR = /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface
+CMAKE_BINARY_DIR = /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adithyakvh/Courses/Fathom_Radiant/src/custom_interface /home/adithyakvh/Courses/Fathom_Radiant/src/custom_interface /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

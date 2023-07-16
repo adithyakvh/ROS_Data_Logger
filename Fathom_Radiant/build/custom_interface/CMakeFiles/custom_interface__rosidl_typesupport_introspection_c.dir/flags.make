@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"custom_interface\" -Dcustom_interface__rosidl_typesupport_introspection_c_EXPORTS
 
-C_INCLUDES = -I/home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/rosidl_generator_c -I/home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/rosidl_typesupport_introspection_c -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/rosidl_generator_c -I/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/rosidl_typesupport_introspection_c -isystem /opt/ros/foxy/include 
 

@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.000256] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000317] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.022058] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.041650] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.042126] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface', '-DCMAKE_INSTALL_PREFIX=/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface'], 'cwd': '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adithyakvh'), ('SSH_AGENT_PID', '2199'), ('ROS_PACKAGE_PATH', '/home/adithyakvh/ROS_Installations/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib:/opt/ros/noetic/lib:/usr/local/cuda-11.0/lib64'), ('HOME', '/home/adithyakvh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/adithyakvh/Courses/ROS_Data_Logger'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adithyakvh'), ('JOURNAL_STREAM', '8:48647'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adithyakvh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('CUDADIR', '/usr/local/cuda-11.0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/adithyakvh/anaconda3/condabin:/home/adithyakvh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.0/bin'), ('SESSION_MANAGER', 'local/adithyakvh-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2237,unix/adithyakvh-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2237'), ('INVOCATION_ID', 'a943d5dedada427c839fbe2d72f7e4c0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6a729ee_36a8_4b4f_ad92_9eb45c27cfa2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/adithyakvh/ROS_Installations/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/adithyakvh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/adithyakvh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CUDA_PATH', '/usr'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/adithyakvh/ROS_Installations/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.098831] (-) TimerEvent: {}
+[0.199957] (-) TimerEvent: {}
+[0.300227] (-) TimerEvent: {}
+[0.384337] (custom_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400340] (-) TimerEvent: {}
+[0.500633] (-) TimerEvent: {}
+[0.512315] (custom_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.532529] (custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.600827] (-) TimerEvent: {}
+[0.607178] (custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.610356] (custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.686785] (custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.698707] (custom_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.699919] (custom_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.700840] (-) TimerEvent: {}
+[0.706767] (custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.791655] (custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.792760] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800955] (-) TimerEvent: {}
+[0.880473] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.893446] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.893975] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.899332] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.901034] (-) TimerEvent: {}
+[0.945634] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.945880] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001156] (-) TimerEvent: {}
+[1.063831] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build', 'install', '--record', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/install.log', '--install-scripts', '$base/lib/my_package', '--single-version-externally-managed'], 'cwd': '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/my_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adithyakvh', 'SSH_AGENT_PID': '2199', 'ROS_PACKAGE_PATH': '/home/adithyakvh/ROS_Installations/catkin_ws/src:/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib:/opt/ros/noetic/lib:/usr/local/cuda-11.0/lib64', 'HOME': '/home/adithyakvh', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/adithyakvh/Courses/ROS_Data_Logger', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2014', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adithyakvh', 'JOURNAL_STREAM': '8:48647', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adithyakvh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'CUDADIR': '/usr/local/cuda-11.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/adithyakvh/anaconda3/condabin:/home/adithyakvh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.0/bin', 'SESSION_MANAGER': 'local/adithyakvh-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2237,unix/adithyakvh-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2237', 'INVOCATION_ID': 'a943d5dedada427c839fbe2d72f7e4c0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f6a729ee_36a8_4b4f_ad92_9eb45c27cfa2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/adithyakvh/ROS_Installations/catkin_ws/devel/share/common-lisp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/adithyakvh/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/adithyakvh/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/prefix_override:/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CUDA_PATH': '/usr', 'CMAKE_PREFIX_PATH': '/home/adithyakvh/ROS_Installations/catkin_ws/devel:/opt/ros/noetic'}, 'shell': False}
+[1.101286] (-) TimerEvent: {}
+[1.201733] (-) TimerEvent: {}
+[1.302051] (-) TimerEvent: {}
+[1.304467] (custom_interface) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.356042] (my_package) StderrLine: {'line': b"/home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/dist.py:731: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.356255] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.356507] (my_package) StderrLine: {'line': b"/home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/dist.py:731: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.356616] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.395288] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.395954] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[1.396233] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[1.396534] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[1.396684] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[1.396879] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[1.399097] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.399904] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.400772] (my_package) StdoutLine: {'line': b'running build\n'}
+[1.400904] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[1.401828] (my_package) StdoutLine: {'line': b'running install\n'}
+[1.402063] (-) TimerEvent: {}
+[1.402899] (my_package) StderrLine: {'line': b'/home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.403014] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.408705] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.409459] (my_package) StdoutLine: {'line': b'copying /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build/lib/my_package/__init__.py -> /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[1.409782] (my_package) StdoutLine: {'line': b'copying /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build/lib/my_package/publisher_node.py -> /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[1.410029] (my_package) StdoutLine: {'line': b'copying /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build/lib/my_package/subscriber_node.py -> /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[1.411634] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[1.412601] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.414575] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.415117] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.434150] (my_package) StdoutLine: {'line': b'Installing publisher_node script to /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/my_package\n'}
+[1.434516] (my_package) StdoutLine: {'line': b'Installing subscriber_node script to /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/my_package\n'}
+[1.473666] (my_package) CommandEnded: {'returncode': 0}
+[1.496295] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.502190] (-) TimerEvent: {}
+[1.578849] (custom_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.602312] (-) TimerEvent: {}
+[1.615508] (custom_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.702410] (-) TimerEvent: {}
+[1.742152] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.802508] (-) TimerEvent: {}
+[1.871576] (custom_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.877011] (custom_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.881224] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.902660] (-) TimerEvent: {}
+[2.002941] (-) TimerEvent: {}
+[2.007739] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.008001] (custom_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.087710] (custom_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.087948] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.103023] (-) TimerEvent: {}
+[2.151879] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.152203] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.203117] (-) TimerEvent: {}
+[2.225309] (custom_interface) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.226389] (custom_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.303205] (-) TimerEvent: {}
+[2.403436] (-) TimerEvent: {}
+[2.467502] (custom_interface) StdoutLine: {'line': b'-- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.471202] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.490760] (custom_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.503546] (-) TimerEvent: {}
+[2.603794] (-) TimerEvent: {}
+[2.611208] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.703917] (-) TimerEvent: {}
+[2.716727] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.804031] (-) TimerEvent: {}
+[2.855859] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.871576] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.898035] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.900525] (custom_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.904134] (-) TimerEvent: {}
+[2.934810] (custom_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.935048] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.935131] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.935201] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.958936] (custom_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.004215] (-) TimerEvent: {}
+[3.104470] (-) TimerEvent: {}
+[3.204725] (-) TimerEvent: {}
+[3.273630] (custom_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.278186] (custom_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.281528] (custom_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.304899] (-) TimerEvent: {}
+[3.313328] (custom_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.368260] (custom_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.371593] (custom_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface\n'}
+[3.380374] (custom_interface) CommandEnded: {'returncode': 0}
+[3.381008] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[3.381814] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface', '--', '-j8', '-l8'], 'cwd': '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adithyakvh'), ('SSH_AGENT_PID', '2199'), ('ROS_PACKAGE_PATH', '/home/adithyakvh/ROS_Installations/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib:/opt/ros/noetic/lib:/usr/local/cuda-11.0/lib64'), ('HOME', '/home/adithyakvh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/adithyakvh/Courses/ROS_Data_Logger'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adithyakvh'), ('JOURNAL_STREAM', '8:48647'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adithyakvh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('CUDADIR', '/usr/local/cuda-11.0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/adithyakvh/anaconda3/condabin:/home/adithyakvh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.0/bin'), ('SESSION_MANAGER', 'local/adithyakvh-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2237,unix/adithyakvh-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2237'), ('INVOCATION_ID', 'a943d5dedada427c839fbe2d72f7e4c0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6a729ee_36a8_4b4f_ad92_9eb45c27cfa2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/adithyakvh/ROS_Installations/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/adithyakvh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/adithyakvh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CUDA_PATH', '/usr'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/adithyakvh/ROS_Installations/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[3.405018] (-) TimerEvent: {}
+[3.428314] (custom_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.428801] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__cpp\x1b[0m\n'}
+[3.441108] (custom_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.505113] (-) TimerEvent: {}
+[3.605379] (-) TimerEvent: {}
+[3.672958] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_generator_c\x1b[0m\n'}
+[3.687227] (custom_interface) StdoutLine: {'line': b'[  6%] Built target custom_interface__cpp\n'}
+[3.693317] (custom_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/data_logger__functions.c.o\x1b[0m\n'}
+[3.698632] (custom_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.698890] (custom_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.699051] (custom_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.705471] (-) TimerEvent: {}
+[3.775738] (custom_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.805577] (-) TimerEvent: {}
+[3.824514] (custom_interface) StdoutLine: {'line': b'[ 22%] Built target custom_interface__rosidl_generator_c\n'}
+[3.840490] (custom_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.840732] (custom_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.905680] (-) TimerEvent: {}
+[3.912901] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.932366] (custom_interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/data_logger__type_support.cpp.o\x1b[0m\n'}
+[3.939648] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.963211] (custom_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/data_logger__type_support.cpp.o\x1b[0m\n'}
+[3.978758] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.005778] (-) TimerEvent: {}
+[4.014372] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/data_logger__type_support.cpp.o\x1b[0m\n'}
+[4.105880] (-) TimerEvent: {}
+[4.179368] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_c\x1b[0m\n'}
+[4.199634] (custom_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/data_logger__type_support.cpp.o\x1b[0m\n'}
+[4.205992] (-) TimerEvent: {}
+[4.208987] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.227722] (custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/data_logger__type_support.c.o\x1b[0m\n'}
+[4.248202] (custom_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.265066] (custom_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.306104] (-) TimerEvent: {}
+[4.307892] (custom_interface) StdoutLine: {'line': b'[ 51%] Built target custom_interface__rosidl_typesupport_c\n'}
+[4.313957] (custom_interface) StdoutLine: {'line': b'[ 51%] Built target custom_interface__rosidl_typesupport_introspection_c\n'}
+[4.343866] (custom_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.364787] (custom_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.389622] (custom_interface) StdoutLine: {'line': b'[ 58%] Built target custom_interface__rosidl_typesupport_cpp\n'}
+[4.406212] (-) TimerEvent: {}
+[4.435912] (custom_interface) StdoutLine: {'line': b'[ 58%] Built target custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.506325] (-) TimerEvent: {}
+[4.528007] (custom_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.606458] (-) TimerEvent: {}
+[4.635127] (custom_interface) StdoutLine: {'line': b'[ 61%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.646567] (custom_interface) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.706564] (-) TimerEvent: {}
+[4.806858] (-) TimerEvent: {}
+[4.869511] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.887536] (custom_interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/data_logger__type_support_c.cpp.o\x1b[0m\n'}
+[4.906981] (-) TimerEvent: {}
+[5.007238] (-) TimerEvent: {}
+[5.107535] (-) TimerEvent: {}
+[5.207838] (-) TimerEvent: {}
+[5.247187] (custom_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.307971] (-) TimerEvent: {}
+[5.342186] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[5.353929] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface\x1b[0m\n'}
+[5.365168] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface\n'}
+[5.376502] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__py\x1b[0m\n'}
+[5.388412] (custom_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.408114] (-) TimerEvent: {}
+[5.508349] (-) TimerEvent: {}
+[5.608701] (-) TimerEvent: {}
+[5.709234] (-) TimerEvent: {}
+[5.809833] (-) TimerEvent: {}
+[5.910410] (-) TimerEvent: {}
+[6.011130] (-) TimerEvent: {}
+[6.111764] (-) TimerEvent: {}
+[6.212423] (-) TimerEvent: {}
+[6.313087] (-) TimerEvent: {}
+[6.413743] (-) TimerEvent: {}
+[6.514412] (-) TimerEvent: {}
+[6.614950] (-) TimerEvent: {}
+[6.715330] (-) TimerEvent: {}
+[6.815888] (-) TimerEvent: {}
+[6.916526] (-) TimerEvent: {}
+[7.017016] (-) TimerEvent: {}
+[7.117432] (-) TimerEvent: {}
+[7.148475] (custom_interface) StdoutLine: {'line': b'[ 74%] Built target custom_interface__py\n'}
+[7.160058] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__python\x1b[0m\n'}
+[7.217605] (-) TimerEvent: {}
+[7.290365] (custom_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_data_logger_s.c.o\x1b[0m\n'}
+[7.317723] (-) TimerEvent: {}
+[7.418017] (-) TimerEvent: {}
+[7.426298] (custom_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__python.so\x1b[0m\n'}
+[7.470322] (custom_interface) StdoutLine: {'line': b'[ 80%] Built target custom_interface__python\n'}
+[7.481481] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.481700] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.481835] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.502552] (custom_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.505823] (custom_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.507290] (custom_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.518129] (-) TimerEvent: {}
+[7.587880] (custom_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.593534] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.593803] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.618242] (-) TimerEvent: {}
+[7.628245] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_c__pyext\n'}
+[7.635646] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[7.667782] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.680475] (custom_interface) CommandEnded: {'returncode': 0}
+[7.718347] (-) TimerEvent: {}
+[7.737749] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'install'}
+[7.752512] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface'], 'cwd': '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adithyakvh'), ('SSH_AGENT_PID', '2199'), ('ROS_PACKAGE_PATH', '/home/adithyakvh/ROS_Installations/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib:/opt/ros/noetic/lib:/usr/local/cuda-11.0/lib64'), ('HOME', '/home/adithyakvh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/adithyakvh/Courses/ROS_Data_Logger'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adithyakvh'), ('JOURNAL_STREAM', '8:48647'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adithyakvh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('CUDADIR', '/usr/local/cuda-11.0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/adithyakvh/anaconda3/condabin:/home/adithyakvh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.0/bin'), ('SESSION_MANAGER', 'local/adithyakvh-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2237,unix/adithyakvh-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2237'), ('INVOCATION_ID', 'a943d5dedada427c839fbe2d72f7e4c0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6a729ee_36a8_4b4f_ad92_9eb45c27cfa2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/adithyakvh/ROS_Installations/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/adithyakvh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/adithyakvh/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/adithyakvh/ROS_Installations/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CUDA_PATH', '/usr'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/adithyakvh/ROS_Installations/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[7.762422] (custom_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.762649] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface\n'}
+[7.762848] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface\n'}
+[7.763047] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg\n'}
+[7.763147] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.763260] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail\n'}
+[7.763434] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__functions.h\n'}
+[7.763530] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__functions.c\n'}
+[7.763601] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__type_support.h\n'}
+[7.763698] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__struct.h\n'}
+[7.763791] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/data_logger.h\n'}
+[7.763888] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/library_path.sh\n'}
+[7.764038] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/library_path.dsv\n'}
+[7.764254] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so\n'}
+[7.764681] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""\n'}
+[7.764837] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface\n'}
+[7.765035] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg\n'}
+[7.765169] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.765327] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail\n'}
+[7.765462] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_fastrtps_c.h\n'}
+[7.765622] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[7.766012] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.766188] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface\n'}
+[7.766288] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg\n'}
+[7.766357] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.766451] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail\n'}
+[7.766558] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.766654] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps\n'}
+[7.766723] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.767196] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.767435] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface\n'}
+[7.767646] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg\n'}
+[7.767789] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.767905] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail\n'}
+[7.768046] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__type_support.c\n'}
+[7.768154] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_introspection_c.h\n'}
+[7.768319] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so\n'}
+[7.768531] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.768690] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so\n'}
+[7.769275] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""\n'}
+[7.769410] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface\n'}
+[7.769539] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg\n'}
+[7.769714] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/data_logger.hpp\n'}
+[7.769881] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail\n'}
+[7.770018] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__traits.hpp\n'}
+[7.770195] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__builder.hpp\n'}
+[7.770362] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__struct.hpp\n'}
+[7.770474] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface\n'}
+[7.770624] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg\n'}
+[7.770709] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail\n'}
+[7.770781] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__type_support.cpp\n'}
+[7.770843] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.770905] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[7.771003] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.771161] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so\n'}
+[7.771619] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[7.771729] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/pythonpath.sh\n'}
+[7.771898] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/pythonpath.dsv\n'}
+[7.772170] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py\n'}
+[7.807432] (custom_interface) StdoutLine: {'line': b"Compiling '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py'...\n"}
+[7.811117] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg\n'}
+[7.811313] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_data_logger.py\n'}
+[7.811419] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py\n'}
+[7.811561] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_data_logger_s.c\n'}
+[7.811701] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.812232] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.812452] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.813051] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.813258] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.813724] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.813834] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__python.so\n'}
+[7.814284] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__python.so" to ""\n'}
+[7.814436] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/msg/DataLogger.idl\n'}
+[7.814581] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/msg/DataLogger.msg\n'}
+[7.814866] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface\n'}
+[7.815057] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface\n'}
+[7.815190] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh\n'}
+[7.815375] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv\n'}
+[7.815514] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/path.sh\n'}
+[7.815635] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/path.dsv\n'}
+[7.815775] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.bash\n'}
+[7.815913] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.sh\n'}
+[7.816048] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.zsh\n'}
+[7.816183] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.dsv\n'}
+[7.816316] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/package.dsv\n'}
+[7.816510] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/packages/custom_interface\n'}
+[7.816759] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake\n'}
+[7.817029] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.817348] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.817591] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.817901] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake\n'}
+[7.818121] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.818396] (-) TimerEvent: {}
+[7.818586] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake\n'}
+[7.818707] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.818862] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.819086] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake\n'}
+[7.819262] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.819446] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[7.819669] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.819841] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.820013] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.820177] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.820382] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.820517] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.820683] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake\n'}
+[7.820834] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake\n'}
+[7.820970] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/package.xml\n'}
+[7.828424] (custom_interface) CommandEnded: {'returncode': 0}
+[7.918558] (-) TimerEvent: {}
+[7.935405] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 0}
+[7.936646] (-) EventReactorShutdown: {}

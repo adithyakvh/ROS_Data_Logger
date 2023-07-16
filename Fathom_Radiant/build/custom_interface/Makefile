@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adithyakvh/Courses/Fathom_Radiant/src/custom_interface
+CMAKE_SOURCE_DIR = /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface
+CMAKE_BINARY_DIR = /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/CMakeFiles /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/CMakeFiles /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

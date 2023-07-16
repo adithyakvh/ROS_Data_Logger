@@ -1,9 +1,9 @@
 {
   "package_name": "custom_interface",
-  "output_dir": "/home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/rosidl_generator_c/custom_interface",
+  "output_dir": "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/rosidl_generator_c/custom_interface",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/rosidl_adapter/custom_interface:msg/DataLogger.idl"
+    "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/rosidl_adapter/custom_interface:msg/DataLogger.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
@@ -23,7 +23,7 @@
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/adithyakvh/Courses/Fathom_Radiant/build/custom_interface/rosidl_adapter/custom_interface/msg/DataLogger.idl",
+    "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface/rosidl_adapter/custom_interface/msg/DataLogger.idl",
     "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
   ]

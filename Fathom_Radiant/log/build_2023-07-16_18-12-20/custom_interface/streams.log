@@ -1,0 +1,226 @@
+[0.047s] Invoking command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface
+[0.384s] -- The C compiler identification is GNU 9.4.0
+[0.512s] -- The CXX compiler identification is GNU 9.4.0
+[0.532s] -- Check for working C compiler: /usr/bin/cc
+[0.607s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.610s] -- Detecting C compiler ABI info
+[0.686s] -- Detecting C compiler ABI info - done
+[0.698s] -- Detecting C compile features
+[0.700s] -- Detecting C compile features - done
+[0.707s] -- Check for working CXX compiler: /usr/bin/c++
+[0.791s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.792s] -- Detecting CXX compiler ABI info
+[0.880s] -- Detecting CXX compiler ABI info - done
+[0.893s] -- Detecting CXX compile features
+[0.894s] -- Detecting CXX compile features - done
+[0.899s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.945s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.946s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.304s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.414s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.615s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.871s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.881s] -- Looking for pthread.h
+[2.007s] -- Looking for pthread.h - found
+[2.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.088s] -- Looking for pthread_create in pthreads
+[2.152s] -- Looking for pthread_create in pthreads - not found
+[2.152s] -- Looking for pthread_create in pthread
+[2.225s] -- Looking for pthread_create in pthread - found
+[2.226s] -- Found Threads: TRUE  
+[2.467s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[2.471s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.491s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.611s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.716s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.900s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.935s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.935s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.935s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.935s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.959s] -- Found PythonExtra: .so  
+[3.273s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.278s] -- Added test 'lint_cmake' to check CMake code style
+[3.281s] -- Added test 'xmllint' to check XML markup files
+[3.313s] -- Configuring done
+[3.368s] -- Generating done
+[3.371s] -- Build files have been written to: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface
+[3.380s] Invoked command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface
+[3.383s] Invoking command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface -- -j8 -l8
+[3.428s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.429s] [35m[1mScanning dependencies of target custom_interface__cpp[0m
+[3.441s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.673s] [35m[1mScanning dependencies of target custom_interface__rosidl_generator_c[0m
+[3.687s] [  6%] Built target custom_interface__cpp
+[3.693s] [  9%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/data_logger__functions.c.o[0m
+[3.698s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.699s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.699s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.775s] [ 22%] [32m[1mLinking C shared library libcustom_interface__rosidl_generator_c.so[0m
+[3.824s] [ 22%] Built target custom_interface__rosidl_generator_c
+[3.840s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.840s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.913s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_cpp[0m
+[3.932s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/data_logger__type_support.cpp.o[0m
+[3.939s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_cpp[0m
+[3.963s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/data_logger__type_support.cpp.o[0m
+[3.979s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp[0m
+[4.014s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/data_logger__type_support.cpp.o[0m
+[4.179s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_c[0m
+[4.199s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/data_logger__type_support.cpp.o[0m
+[4.209s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c[0m
+[4.227s] [ 45%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/data_logger__type_support.c.o[0m
+[4.248s] [ 48%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so[0m
+[4.265s] [ 51%] [32m[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so[0m
+[4.308s] [ 51%] Built target custom_interface__rosidl_typesupport_c
+[4.314s] [ 51%] Built target custom_interface__rosidl_typesupport_introspection_c
+[4.344s] [ 54%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so[0m
+[4.365s] [ 58%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so[0m
+[4.389s] [ 58%] Built target custom_interface__rosidl_typesupport_cpp
+[4.436s] [ 58%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[4.528s] [ 61%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.635s] [ 61%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[4.646s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.869s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c[0m
+[4.887s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/data_logger__type_support_c.cpp.o[0m
+[5.247s] [ 70%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so[0m
+[5.342s] [ 70%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[5.354s] [35m[1mScanning dependencies of target custom_interface[0m
+[5.365s] [ 70%] Built target custom_interface
+[5.376s] [35m[1mScanning dependencies of target custom_interface__py[0m
+[5.388s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.148s] [ 74%] Built target custom_interface__py
+[7.160s] [35m[1mScanning dependencies of target custom_interface__python[0m
+[7.290s] [ 77%] [32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_data_logger_s.c.o[0m
+[7.426s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__python.so[0m
+[7.470s] [ 80%] Built target custom_interface__python
+[7.481s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_c__pyext[0m
+[7.481s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext[0m
+[7.482s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.502s] [ 83%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.506s] [ 87%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[7.507s] [ 90%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.588s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.593s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.594s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.628s] [100%] Built target custom_interface__rosidl_typesupport_c__pyext
+[7.635s] [100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[7.668s] [100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[7.681s] Invoked command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface -- -j8 -l8
+[7.753s] Invoking command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface
+[7.762s] -- Install configuration: ""
+[7.762s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__functions.h
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__functions.c
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__type_support.h
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__struct.h
+[7.763s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/data_logger.h
+[7.764s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/library_path.sh
+[7.764s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[7.764s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[7.764s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""
+[7.765s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface
+[7.765s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg
+[7.765s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.765s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail
+[7.765s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_fastrtps_c.h
+[7.765s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[7.766s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[7.766s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface
+[7.766s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg
+[7.766s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.766s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail
+[7.766s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_fastrtps_cpp.hpp
+[7.766s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps
+[7.766s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[7.767s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.767s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface
+[7.767s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg
+[7.767s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.768s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail
+[7.768s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__type_support.c
+[7.768s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_introspection_c.h
+[7.768s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[7.768s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""
+[7.768s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[7.769s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""
+[7.769s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface
+[7.769s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg
+[7.769s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/data_logger.hpp
+[7.770s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail
+[7.770s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__traits.hpp
+[7.770s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__builder.hpp
+[7.770s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__struct.hpp
+[7.770s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface
+[7.770s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg
+[7.770s] -- Up-to-date: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail
+[7.770s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__type_support.cpp
+[7.770s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/include/custom_interface/msg/detail/data_logger__rosidl_typesupport_introspection_cpp.hpp
+[7.771s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[7.771s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[7.771s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[7.771s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""
+[7.771s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[7.772s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[7.772s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py
+[7.807s] Compiling '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py'...
+[7.811s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg
+[7.811s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_data_logger.py
+[7.811s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py
+[7.811s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_data_logger_s.c
+[7.811s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.812s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.812s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.813s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.813s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.813s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.813s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__python.so
+[7.814s] -- Set runtime path of "/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/lib/libcustom_interface__python.so" to ""
+[7.814s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/msg/DataLogger.idl
+[7.814s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/msg/DataLogger.msg
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/path.sh
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/environment/path.dsv
+[7.815s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.bash
+[7.816s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.sh
+[7.816s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.zsh
+[7.816s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/local_setup.dsv
+[7.816s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/package.dsv
+[7.816s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[7.816s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake
+[7.817s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake
+[7.817s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[7.817s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.818s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[7.818s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[7.818s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake
+[7.818s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[7.819s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.819s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[7.819s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[7.819s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[7.819s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.820s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[7.820s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[7.820s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.820s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.820s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.820s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[7.821s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[7.821s] -- Installing: /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/custom_interface/share/custom_interface/package.xml
+[7.829s] Invoked command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/custom_interface
