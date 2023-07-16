@@ -1,4 +1,4 @@
-# ROS_Data_Logger
+# ROS Data Logger
 
 This repository contains a ROS (Robot Operating System) package that consists of a publisher and a subscriber node. The publisher node reads data from a CSV file and publishes it on a topic, while the subscriber node subscribes to the topic and calculates the time difference between consecutive data points.
 
@@ -73,6 +73,17 @@ The package uses a custom message type called `DataLogger`. The message contains
 - `time_ros`: Time, ROS time stamp
 - `actual_speed`: Float64, speed value
 
+## Unit Test
+
+To perform unit tests, navigate to the test folder inside `my_package`
+
+```bash
+   $ cd src/my_package/test
+   $ pytest
+   ```
+The test folder has two unit tests for the publisher and subscriber nodes respectively. 
+- Publisher node is tested if the message is being correctly read from the csv file and being published.
+- Subscriber node is tested if the node reads the messages from the /data topic and correctly computes the time difference between two consecutive messages.
 
 ## Acknowledgments
 
