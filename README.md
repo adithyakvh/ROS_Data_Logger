@@ -10,7 +10,7 @@ This repository contains a ROS (Robot Operating System) package that consists of
    $ git clone https://github.com/adithyakvh/ROS_Data_Logger.git
    ```
 
-2. Build the ROS package from inside the Fathom_Radiant folder:
+2. Build the ROS package from inside the Fathom_Radiant folder after sourcing ROS:
 
    ```bash
    $ cd ROS_DATA_Logger/Fathom_Radiant
