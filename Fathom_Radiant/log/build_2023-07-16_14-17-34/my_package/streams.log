@@ -1,0 +1,24 @@
+[1.386s] Invoking command in '/home/adithyakvh/Courses/Fathom_Radiant/src/my_package': PYTHONPATH=/home/adithyakvh/Courses/Fathom_Radiant/build/my_package/prefix_override:/home/adithyakvh/Courses/Fathom_Radiant/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/adithyakvh/Courses/Fathom_Radiant/build/my_package/build install --record /home/adithyakvh/Courses/Fathom_Radiant/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[1.667s] /home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/dist.py:731: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.668s]   warnings.warn(
+[1.668s] /home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/dist.py:731: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.668s]   warnings.warn(
+[1.705s] running egg_info
+[1.705s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.706s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.706s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.706s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.706s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.716s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.718s] running build
+[1.718s] running build_py
+[1.719s] running install
+[1.720s] /home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.720s]   warnings.warn(
+[1.726s] running install_lib
+[1.727s] running install_data
+[1.728s] running install_egg_info
+[1.731s] running install_scripts
+[1.749s] Installing publisher_node script to /home/adithyakvh/Courses/Fathom_Radiant/install/my_package/lib/my_package
+[1.749s] Installing subscriber_node script to /home/adithyakvh/Courses/Fathom_Radiant/install/my_package/lib/my_package
+[1.782s] Invoked command in '/home/adithyakvh/Courses/Fathom_Radiant/src/my_package' returned '0': PYTHONPATH=/home/adithyakvh/Courses/Fathom_Radiant/build/my_package/prefix_override:/home/adithyakvh/Courses/Fathom_Radiant/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/adithyakvh/Courses/Fathom_Radiant/build/my_package/build install --record /home/adithyakvh/Courses/Fathom_Radiant/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
