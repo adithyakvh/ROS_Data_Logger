@@ -18,7 +18,7 @@ def publisher_node():
 
 def test_publish_data(publisher_node):
 
-    file_path = "/home/adithyakvh/Courses/Fathom_Radiant/src/my_package/my_package/Dataset.csv"
+    file_path = "../my_package/Dataset.csv"
     with open(file_path, 'r') as csv_file:
         heading = next(csv_file)
         reader = csv.reader(csv_file)

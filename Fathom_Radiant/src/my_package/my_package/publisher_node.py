@@ -44,7 +44,8 @@ def main(args=None):
     rclpy.init(args=args)
     publisher_node = PublisherNode()
 
-    file_path = "/home/adithyakvh/Courses/Fathom_Radiant/src/my_package/my_package/Dataset.csv"
+    file_path = "./src/my_package/my_package/Dataset.csv"
+
 
     publisher_node.publish_data(file_path)
 

@@ -30,7 +30,7 @@ def test_subscriber_node_scan_callback(subscriber_node):
         callback=callback
     )
 
-    file_path = "/home/adithyakvh/Courses/Fathom_Radiant/src/my_package/my_package/Dataset.csv"
+    file_path = "../my_package/Dataset.csv"
     test_data_points = []
     time_diff_column = []
     with open(file_path, 'r') as csv_file:

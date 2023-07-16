@@ -1,0 +1,25 @@
+[1.011s] Invoking command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/my_package': PYTHONPATH=/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/prefix_override:/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build install --record /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[1.294s] /home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/dist.py:731: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.294s]   warnings.warn(
+[1.294s] /home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/dist.py:731: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.294s]   warnings.warn(
+[1.333s] running egg_info
+[1.334s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.334s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.334s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.334s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.335s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.338s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.339s] running build
+[1.339s] running build_py
+[1.339s] running install
+[1.340s] /home/adithyakvh/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.340s]   warnings.warn(
+[1.345s] running install_lib
+[1.346s] copying /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build/lib/my_package/publisher_node.py -> /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages/my_package
+[1.348s] running install_data
+[1.349s] running install_egg_info
+[1.352s] running install_scripts
+[1.370s] Installing publisher_node script to /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/my_package
+[1.370s] Installing subscriber_node script to /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/my_package
+[1.402s] Invoked command in '/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/src/my_package' returned '0': PYTHONPATH=/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/prefix_override:/home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/build install --record /home/adithyakvh/Courses/ROS_Data_Logger/Fathom_Radiant/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
