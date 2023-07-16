@@ -13,7 +13,7 @@ This repository contains a ROS (Robot Operating System) package that consists of
 2. Build the ROS package from inside the Fathom_Radiant folder:
 
    ```bash
-   $ cd Fathom_Radiant
+   $ cd ROS_DATA_Logger/Fathom_Radiant
    $ colcon build
    ```
 
